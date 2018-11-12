@@ -29,7 +29,7 @@ import java.util.Scanner;
  样例解释
  物品1的a,b,c均小于物品3的a,b,c,因此1为不合格品。
  */
-public class Test02 {
+public class Test12 {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);

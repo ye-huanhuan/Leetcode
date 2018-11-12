@@ -27,7 +27,7 @@ import java.util.Scanner;
  50-100min: 400W = 50 * 8W/min
 
  */
-public class Test01 {
+public class Test11 {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);

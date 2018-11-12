@@ -1,6 +1,6 @@
 package month_11.day07;
 
-public class Test01 {
+public class Test08 {
 
     public static void main(String[] args) {
         Solution s = new Solution();

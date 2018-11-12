@@ -1,6 +1,6 @@
 package month_11.day07;
 
-public class Test03 {
+public class Test10 {
     public static void main(String[] args) {
         int[] testArr = new int[]{1,2,3,4};
         Solution04 s4 = new Solution04();

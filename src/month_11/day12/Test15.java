@@ -1,7 +1,5 @@
 package month_11.day12;
 
-import javafx.util.Pair;
-
 public class Test15 {
 }
 

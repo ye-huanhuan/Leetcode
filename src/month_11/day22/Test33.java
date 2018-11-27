@@ -13,7 +13,7 @@ public class Test33 {
      TreeNode(int x) { val = x; }
  }
 
-class Solution03 {
+class Solution {
     public boolean isSymmetric(TreeNode root) {
         if(root == null) return true;
         return isMirror(root, root);

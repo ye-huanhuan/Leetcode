@@ -15,7 +15,7 @@ class Solution04 {
         while(i != j) {
             if(numbers[i] + numbers[j] == target) return new int[]{i+1,j+1};
             else if(numbers[i] + numbers[j] > target) j--;
-            else i--;
+            else i++;
         }
         return new int[]{-1,-1};
     }

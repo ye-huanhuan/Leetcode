@@ -41,11 +41,11 @@ public class Test10 {
 class Solution03 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer,Integer> numToindex = new HashMap<>();
-        int index = 0;
-        for(int tmp : nums) {
-            numToindex.put(tmp,index);
-            index++;
-        }
+//        int index = 0;
+//        for(int tmp : nums) {
+//            numToindex.put(tmp,index);
+//            index++;
+//        }
         for(int i=0; i<nums.length; i++) {
             int x = target - nums[i];
             if(numToindex.containsKey(x) && numToindex.get(x) != i ) return new int[]{i, numToindex.get(x)};

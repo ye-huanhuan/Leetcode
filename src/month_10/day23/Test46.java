@@ -1,7 +1,5 @@
 package month_10.day23;
 
-import java.util.Arrays;
-
 public class Test46 {
     public static void main(String[] args) {
         Solution08 s8 = new Solution08();

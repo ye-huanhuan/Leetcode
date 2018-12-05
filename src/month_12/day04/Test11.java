@@ -6,7 +6,7 @@ public class Test11 {
 /**
  * 二进制中1的个数
  */
-class Solution {
+class Solution05 {
     public int NumberOf1(int n) {
         int res = 0;
         int flag = 1;

@@ -6,7 +6,7 @@ public class Test12 {
 /**
  * 数值的整数次方
  */
-class Solution {
+class Solution06 {
     public double Power(double base, int exponent) {
         return Math.pow(base, exponent);
     }

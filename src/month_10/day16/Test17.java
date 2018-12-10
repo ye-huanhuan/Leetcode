@@ -1,9 +1,5 @@
 package month_10.day16;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Queue;
 
 public class Test17 {
 }

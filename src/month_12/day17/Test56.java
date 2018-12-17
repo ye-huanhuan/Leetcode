@@ -1,4 +1,4 @@
-package month_12.day15;
+package month_12.day17;
 
 public class Test56 {
     public static void main(String[] args) {
@@ -29,7 +29,8 @@ public class Test56 {
  * 删除链表中重复的结点
  */
 class Solution02 {
-    public ListNode deleteDuplication(ListNode pHead) {
+    //重复节点保留一个
+    public ListNode deleteDuplication02(ListNode pHead) {
         if(pHead == null) return pHead;
         ListNode res = pHead;
         while(pHead.next != null) {
@@ -41,5 +42,23 @@ class Solution02 {
             }
         }
         return res;
+    }
+
+    //不保留重复节点
+    public ListNode deleteDuplication(ListNode pHead) {
+        if(pHead == null || pHead.next == null) {
+            return pHead;
+        }
+        //该节点是重复节点
+        if(pHead.val == pHead.next.val) {
+            ListNode pNode = pHead;
+            while(pNode != null && pNode.val == pHead.val) {
+                pNode = pNode.next;
+            }
+            return deleteDuplication(pNode);
+        } else {
+            pHead.next = deleteDuplication(pHead.next);
+            return pHead;
+        }
     }
 }

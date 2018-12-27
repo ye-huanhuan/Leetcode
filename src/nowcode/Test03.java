@@ -15,7 +15,7 @@ public class Test03 {
 }
 
 /**
- * 快排
+ * 快排  nlogn 不稳定
  */
 class Solution03 {
     //递归方式

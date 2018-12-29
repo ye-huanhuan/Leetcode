@@ -25,6 +25,7 @@ class Solution02 {
             return pRootOfTree;
         }
         TreeNode left = Convert(pRootOfTree.left);
+        //找到最大的节点，也就是链表最后一个节点，将其连接根节点
         if(left != null) {
             TreeNode tmp = left;
             while(tmp.right != null) {
@@ -36,6 +37,7 @@ class Solution02 {
         }
 
         TreeNode right = Convert(pRootOfTree.right);
+        //将右边节点连接根节点
         if(right != null) {
             pRootOfTree.right = right;
             right.left = pRootOfTree;

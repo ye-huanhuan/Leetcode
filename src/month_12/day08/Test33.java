@@ -21,7 +21,11 @@ class Solution03 {
         int p5=0;
         int[] arr = new int[index];
         arr[0] = 1;
+<<<<<<< HEAD
         for(int i=1; i< arr.length; i++) {
+=======
+        for(int i=1; i<arr.length; i++) {
+>>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e
             arr[i] = Math.min(arr[p2]*2, Math.min(arr[p3]*3, arr[p5]*5));
             if(arr[p2]*2 == arr[i]) {
                 p2++;

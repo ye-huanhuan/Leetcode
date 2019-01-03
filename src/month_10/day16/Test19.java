@@ -1,7 +1,11 @@
 package month_10.day16;
 
 /**
+<<<<<<< HEAD
  * 归并排序
+=======
+ * 归并排序 nlogn 稳定
+>>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e
  */
 public class Test19 {
     public static void main(String[] args) {

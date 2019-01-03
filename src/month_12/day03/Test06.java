@@ -11,6 +11,10 @@ public class Test06 {
 
 /**
  * 旋转数组的最小数字
+<<<<<<< HEAD
+=======
+ * 思路：变形版的二分查找
+>>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e
  */
 
 class Solution06 {
@@ -25,6 +29,10 @@ class Solution06 {
                 mid = right;
                 break;
             }
+<<<<<<< HEAD
+=======
+            //特殊情况，就是出现重复元素，导致前中后三个元素相同，无法判断出最小元素在前面数组还是后面数组中，所以无法缩小查找范围
+>>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e
             if(array[left] == array[right] && array[left] == array[mid]) {
                 return getMin(array);
             }

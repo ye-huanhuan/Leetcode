@@ -12,6 +12,12 @@ public class Test29 {
     }
 }
 
+<<<<<<< HEAD
+=======
+/**
+ * 最小的k个数
+ */
+>>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e
 class Solution05 {
     public ArrayList<Integer> GetLeastNumbers_Solution(int [] input, int k) {
         ArrayList<Integer> res = new ArrayList<>();

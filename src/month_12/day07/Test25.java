@@ -18,7 +18,16 @@ public class Test25 {
 }
 
 /**
+<<<<<<< HEAD
  * 复制链表的复制
+=======
+ * 复杂链表的复制
+ * 思路1：使用map先将新创建的每个节点保存起来，最后遍历原链表的random指针从map里面取值即可
+ * 思路2：
+         1、复制每个节点，如：复制节点A得到A1，将A1插入节点A后面
+         2、遍历链表，A1->random = A->random->next;
+         3、将链表拆分成原链表和复制后的链表
+>>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e
  */
 class RandomListNode {
     int label;

@@ -5,7 +5,13 @@ import java.util.ArrayList;
 public class Test24 {
 }
 
+<<<<<<< HEAD
 
+=======
+/**
+ * 二叉树中和为某一值的路径
+ */
+>>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e
 class Solution06 {
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
         ArrayList<ArrayList<Integer>> res = new ArrayList<>();

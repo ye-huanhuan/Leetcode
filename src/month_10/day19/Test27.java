@@ -7,7 +7,17 @@ public class Test27 {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4};
         Solution02 s2 = new Solution02();
+<<<<<<< HEAD
         s2.permute(arr);
+=======
+        List<List<Integer>> res = s2.permute(arr);
+        for(List<Integer> list : res) {
+            for(Integer i : list) {
+                System.out.print(i + "  ");
+            }
+            System.out.println();
+        }
+>>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e
     }
 }
 

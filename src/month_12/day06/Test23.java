@@ -9,13 +9,11 @@ public class Test23 {
     }
 }
 
-<<<<<<< HEAD
-=======
+
 /**
  * 二叉搜索树的后序遍历序列
  * 思路：每次以最后一个元素作为根，区分左右子树，继续递归左右子树
  */
->>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e
 class Solution05 {
     public boolean VerifySquenceOfBST(int [] sequence) {
         if(sequence.length == 0) return false;

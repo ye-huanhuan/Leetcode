@@ -19,10 +19,7 @@ public class Test09 {
   }
 class Solution02 {
     private List<Integer> res = new ArrayList<>();
-<<<<<<< HEAD
-=======
     //中序遍历
->>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e
     public int kthSmallest(TreeNode root, int k) {
         dfs(root);
         if(res.size() < k) return -1;
@@ -40,11 +37,8 @@ class Solution02 {
 class Solution03 {
 
     public int kthSmallest(TreeNode root, int k) {
-<<<<<<< HEAD
-        int num = count(root);
-=======
+
         int num = count(root.left);
->>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e
         if(num == k-1){
             return root.val;
         } else if(num < k-1) {

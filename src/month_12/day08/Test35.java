@@ -1,9 +1,6 @@
 package month_12.day08;
 
 public class Test35 {
-<<<<<<< HEAD
-}
-=======
 
     public static void main(String[] args) {
         Solution05 s5 = new Solution05();
@@ -104,4 +101,3 @@ class Solution05 {
         }
     }
 }
->>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e

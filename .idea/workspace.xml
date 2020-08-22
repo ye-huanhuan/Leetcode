@@ -2,107 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee330444-d245-4d9c-a665-7c8fa1a605a9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bishi/Main02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi/Main03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi/Main04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi/Main05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi/Main06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi/Main07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi/Main08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi/Main09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi/Main10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi/Main11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi_2019/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi_2019/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi_2019/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bishi_2019/Test04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/MiTuo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Solution695.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Test63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowcode/CanJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowcode/IsValidBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowcode/MincostTickets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowcode/MutiRouteMerge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowcode/Num1403.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowcode/Num260.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowcode/Num55.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowcode/SingleNonDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test28.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/Test33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/Solution0803.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Solution733.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/bishi/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/bishi/Test01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/leetcode/Test13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/leetcode/Test13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/leetcode/Test15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/leetcode/Test15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/leetcode/Test18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/leetcode/Test18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Solution05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Solution05.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Solution06.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Solution06.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Solution07.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Solution08.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Solution08.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Solution14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Solution14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Test03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Test03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Test07.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day11/Test07.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day15/Solution03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day15/Solution03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day15/Test14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day15/Test14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day16/Test19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_10/day16/Test19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day22/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day22/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day22/Test33.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day22/Test33.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day22/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day22/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day27/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day27/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day27/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day27/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day27/Solution03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day27/Solution03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day29/Solution02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day29/Solution02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day29/Test47.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_11/day29/Test47.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_12/day05/Test13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_12/day05/Test13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_12/day07/RandomListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_12/day07/RandomListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_12/day07/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_12/day07/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/month_12/day07/Solution03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/month_12/day07/Solution03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/nowcode/Solution03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/nowcode/Solution03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/nowcode/Test03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode01/nowcode/Test03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bishi/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bishi/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Test13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Test13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Test15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Test15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/Test18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Test18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/month_10/day11/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/month_10/day11/Test03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/month_10/day11/Test07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/month_10/day11/Test07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/month_10/day15/Test14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/month_10/day15/Test14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/month_10/day16/Test19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/month_10/day16/Test19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/month_11/day22/Test33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/month_11/day22/Test33.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/month_11/day27/Test42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/month_11/day27/Test42.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/month_11/day27/Test44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/month_11/day27/Test44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/month_11/day29/Test47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/month_11/day29/Test47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/month_12/day05/Test13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/month_12/day05/Test13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/month_12/day07/Test25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/month_12/day07/Test25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/month_12/day07/Test27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/month_12/day07/Test27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/month_12/day07/Test28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/month_12/day07/Test28.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowcode/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowcode/Test03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode01/leetcode/Test05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Test05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Solution112.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/Test63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/Solution63.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,9 +68,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.MutiRouteMerge">
+  <component name="RunManager" selected="Application.Solution0803">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -229,13 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Num260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowcode.Num260" />
+    <configuration name="Solution0803" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.Solution0803" />
       <module name="Leetcode01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nowcode.*" />
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,16 +183,16 @@
       <item itemvalue="Application.CanJump" />
       <item itemvalue="Application.IsValidBST" />
       <item itemvalue="Application.MincostTickets" />
-      <item itemvalue="Application.Num260" />
       <item itemvalue="Application.MutiRouteMerge" />
+      <item itemvalue="Application.Solution0803" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution0803" />
         <item itemvalue="Application.MutiRouteMerge" />
         <item itemvalue="Application.CanJump" />
         <item itemvalue="Application.IsValidBST" />
         <item itemvalue="Application.MincostTickets" />
-        <item itemvalue="Application.Num260" />
       </list>
     </recent_temporary>
   </component>
@@ -355,46 +260,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595675679350" />
-    <state width="1237" height="217" key="GridCell.Tab.0.bottom" timestamp="1595675681811">
+    <state width="1237" height="217" key="GridCell.Tab.0.bottom" timestamp="1598107646658">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595675681811" />
-    <state width="1237" height="217" key="GridCell.Tab.0.center" timestamp="1595675681811">
+    <state width="1237" height="217" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598107646658" />
+    <state width="1237" height="217" key="GridCell.Tab.0.center" timestamp="1598107646658">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595675681811" />
-    <state width="1237" height="217" key="GridCell.Tab.0.left" timestamp="1595675681811">
+    <state width="1237" height="217" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598107646658" />
+    <state width="1237" height="217" key="GridCell.Tab.0.left" timestamp="1598107646658">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595675681811" />
-    <state width="1237" height="217" key="GridCell.Tab.0.right" timestamp="1595675681811">
+    <state width="1237" height="217" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598107646658" />
+    <state width="1237" height="217" key="GridCell.Tab.0.right" timestamp="1598107646658">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595675681811" />
-    <state width="1237" height="217" key="GridCell.Tab.1.bottom" timestamp="1595675681812">
+    <state width="1237" height="217" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598107646658" />
+    <state width="1237" height="217" key="GridCell.Tab.1.bottom" timestamp="1598107647397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595675681812" />
-    <state width="1237" height="217" key="GridCell.Tab.1.center" timestamp="1595675681811">
+    <state width="1237" height="217" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598107647397" />
+    <state width="1237" height="217" key="GridCell.Tab.1.center" timestamp="1598107647396">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1595675681811" />
-    <state width="1237" height="217" key="GridCell.Tab.1.left" timestamp="1595675681811">
+    <state width="1237" height="217" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598107647396" />
+    <state width="1237" height="217" key="GridCell.Tab.1.left" timestamp="1598107647396">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1595675681811" />
-    <state width="1237" height="217" key="GridCell.Tab.1.right" timestamp="1595675681812">
+    <state width="1237" height="217" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598107647396" />
+    <state width="1237" height="217" key="GridCell.Tab.1.right" timestamp="1598107647397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="217" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1595675681812" />
+    <state width="1237" height="217" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598107647397" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1598103300545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598103300545" />
     <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1592582225205">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1592582225205" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1597759862860">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1598106293880">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1597759862860" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1598106293880" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

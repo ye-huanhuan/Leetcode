@@ -45,11 +45,9 @@ public class Test15 {
             return;
         }
         for(int i=start; i<candidates.length; i++) {
-            if(candidates[i] <= target) {
-                tmp.add(candidates[i]);
-                dfs(tmp, candidates, target-candidates[i], i);
-                tmp.remove(tmp.size()-1);
-            }
+            tmp.add(candidates[i]);
+            dfs(tmp, candidates, target-candidates[i], i);
+            tmp.remove(tmp.size()-1);
         }
     }
 }

@@ -6,7 +6,9 @@ import java.util.Collections;
 public class Test27 {
 }
 
-
+/**
+ * 字符串的排列
+ */
 class Solution03 {
     public ArrayList<String> Permutation(String str) {
         if(str == null || str.length() == 0) return new ArrayList<String>();

@@ -47,6 +47,27 @@ class Solution {
         }
         return res.next;
     }
+    public ListNode removeElements02(ListNode head, int val) {
+        if(head == null) {
+            return head;
+        }
+        while(head.val == val) {
+            head = head.next;
+        }
+        ListNode first = head;
+        ListNode seconde = head.next;
+
+        while(seconde != null) {
+            if(seconde.val == val) {
+                first.next = seconde.next;
+            } else {
+                first = first.next;
+            }
+            seconde = seconde.next;
+
+        }
+        return head;
+    }
 }
 
 class ListNode {

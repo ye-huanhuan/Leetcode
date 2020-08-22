@@ -6,7 +6,7 @@ public class Test13 {
         Solution s = new Solution();
         s.reOrderArray(test);
         for (int i : test) {
-            System.out.println(i);
+            System.out.print(i + "  ");
         }
     }
 }

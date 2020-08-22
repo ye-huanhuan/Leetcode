@@ -23,7 +23,7 @@ class Solution04 {
             if(i == cur) {
                 count++;
             }else {
-               count--;
+                count--;
             }
         }
         count = 0;

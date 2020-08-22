@@ -4,8 +4,9 @@ package bishi;
 public class Test01 {
     static int cnt = 0;
     public static void main(String[] args) {
-        fib(6);
-        System.out.println(cnt);
+        System.out.println("hel".charAt(0));
+//        fib(6);
+//        System.out.println(cnt);
     }
     static int fib(int n) {
         cnt++;

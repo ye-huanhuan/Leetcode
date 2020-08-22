@@ -2,48 +2,58 @@ package month_10.day11;
 
 public class Test03 {
     public static void main(String[] args) {
-//        String subStr = Solution06.maxSubstring("abcdefg","adefgwgeweg");
-//        System.out.println(subStr);
-//        System.out.println(new Solution05().longestPalindrome("babad"));
-
-        System.out.println(new Solution08().longestPalindrome("abacdfgdcaba"));
+        System.out.println(new Solution05().longestPalindrome("abacdfgdcaba"));
     }
 }
 
 /**
- * 求解最长回文子串---时间复杂度0 n3 超时
+ * 求解最长回文子串---使用动态规划求解时间复杂度O n^2，空间复杂度 O n^2
+ *     c a b a
+    c 1 0 0 0
+    a   1 0 1
+    b     1 0
+    a       1
  */
 class Solution05 {
     public String longestPalindrome(String s) {
-        if(s == null || s.length() == 0) {
-            return null;
-        }
-        if(s.length() == 1) {
-            return s;
-        }
-        for(int i=0; i<s.length(); i++){
-            for(int begin=0, end=s.length()-i; end<=s.length(); begin++, end++){
-                String subStr = s.substring(begin, end);
-                if(Solution07.isPalindrome(subStr)) {
-                    return subStr;
+        if(s == null || s.length() == 0) return "";
+        int len = s.length();
+        int[][] dp = new int[len][len];
+        int maxLen = 1;
+        int start = 0;
+        int end = 0;
+        //初始状态，初始化单字母和双字母
+        for(int i=0; i<len; i++){
+            for(int j=0; j<len; j++) {
+                if(i==j) {
+                    dp[i][j] = 1;
+                }
+                if(j-1 == i &&  s.charAt(i) == s.charAt(j)) {
+                    dp[i][j] = 1;
+                    maxLen = 2;
+                    start = i;
+                    end = j;
                 }
             }
         }
-        return "";
+
+        for(int l=3; l<=len; l++) {
+            for(int i=0; i<len+1-l; i++) {
+                int j = l + i - 1;
+                if(dp[i+1][j-1] == 1 && s.charAt(i) == s.charAt(j)) {
+                    dp[i][j] = 1;
+                    if(j-i+1 > maxLen) {
+                        maxLen = j-i+1;
+                        start = i;
+                        end = j;
+                    }
+                }
+            }
+        }
+        return s.substring(start, end+1);
     }
 }
 
-class Solution07 {
-    public static boolean isPalindrome(String x) {
-        boolean flag = true;
-        for(int i=0; i<=x.length()/2; i++) {
-            if(x.charAt(i) != x.charAt(x.length()-i-1)) {
-                flag = false;
-            }
-        }
-        return flag;
-    }
-}
 
 /**
  * 求解最长回文子串---时间复杂度0 n2

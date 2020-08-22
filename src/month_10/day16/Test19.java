@@ -1,11 +1,7 @@
 package month_10.day16;
 
 /**
-<<<<<<< HEAD
- * 归并排序
-=======
  * 归并排序 nlogn 稳定
->>>>>>> f0d62b026fc681ef71e8852d5754e26a406c389e
  */
 public class Test19 {
     public static void main(String[] args) {
@@ -18,8 +14,8 @@ public class Test19 {
     public static int[] sort(int[] a,int low,int high){
         int mid = (low+high)/2;
         if(low<high){
-            sort(a,low,mid);
-            sort(a,mid+1,high);
+            sort(a, low, mid);
+            sort(a,mid+1, high);
             //左右归并
             merge(a,low,mid,high);
         }

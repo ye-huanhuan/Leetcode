@@ -17,9 +17,12 @@ public class Test07 {
         n7.next = n9;
         n9.next = n11;
         n11.next = n13;
+        n13.next = null;
+
+//        n2.next = n9;
 
         Solution14 s = new Solution14();
-        System.out.println(s.getIntersectionNode(n1,n2));
+        System.out.println(s.getIntersectionNode(n1,n2).val);
     }
 
 }
@@ -32,26 +35,23 @@ class Solution14 {
         if(headA == null || headB == null) {
             return null;
         }
-
         ListNode tmpA = headA;
         ListNode tmpB = headB;
-        ListNode currentNode = null;
-        while(headA != currentNode) {
-            currentNode = tmpA;
-            if(tmpA.next == null) {
-                tmpA.next = headB;
-            } else {
-                tmpA = tmpA.next;
+        int flag = 0;
+        while(tmpA != tmpB) {
+            tmpA = tmpA.next;
+            if(tmpA == null) {
+                flag++;
+                tmpA = headB;
             }
-            if(tmpB.next == null) {
-                tmpB.next = headA;
-            } else {
-                tmpB = tmpB.next;
+            tmpB = tmpB.next;
+            if(tmpB == null) {
+                tmpB = headA;
             }
-            if(tmpA == tmpB){
-                return tmpA;
+            if(flag >= 2) {
+                return null;
             }
         }
-        return null;
+        return tmpA;
     }
 }
